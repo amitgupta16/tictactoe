@@ -1,0 +1,53 @@
+body {
+  font: 20px 'calibri', 'arial', 'helvetica';
+  margin: 20px;
+}
+
+ol,
+ul {
+    padding: 1px;
+}
+
+.square {
+  background-color: #fff;
+  border: 1px solid black;
+  height: 40px;
+  width: 40px;
+  margin-right: -1px;
+  margin-top: -1px;
+
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  /*if we remove float, button shift after adding X or O */
+  float: left;
+}
+
+.square:hover{
+    background-color: #eee;
+}
+
+.status {
+  margin-bottom: 10px;
+}
+
+/* Is it required? */
+.board-row:after {
+  clear: both;
+  display: table;
+  content: '';
+}
+
+/* Is it required? */
+.game {
+  display: flex;
+  flex-direction: row;
+}
+
+.game-board {
+    margin-left: 2px;
+}
+
+.game-info {
+    margin-left: 20px;
+}
