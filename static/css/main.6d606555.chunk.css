@@ -1,0 +1,2 @@
+body{font:20px "calibri","arial","helvetica";margin:20px}ol,ul{padding:1px;font-size:12px}.square{background-color:#fff;border:1px solid #000;height:40px;width:40px;margin-right:-1px;margin-top:-1px;font-size:24px;font-weight:700;text-align:center;float:left}.square:hover{background-color:#eee}.status{margin-bottom:10px}.board-row:after{clear:both;display:table;content:""}.game{display:-webkit-flex;display:flex;-webkit-flex-direction:row;flex-direction:row}.game-board{margin-left:2px}.game-info{margin-left:20px}
+/*# sourceMappingURL=main.6d606555.chunk.css.map */
